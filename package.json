@@ -5,6 +5,11 @@
   "hexo": {
     "version": "3.8.0"
   },
+  "scripts": {
+    "start": "./node_modules/hexo-cli/bin/hexo server",
+    "new": "./node_modules/hexo-cli/bin/hexo new temp",
+    "build": "./node_modules/hexo-cli/bin/hexo generate"
+  },
   "dependencies": {
     "hexo": "^3.8.0",
     "hexo-generator-archive": "^0.1.5",
@@ -18,5 +23,8 @@
     "hexo-renderer-sass": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3"
+  },
+  "devDependencies": {
+    "hexo-cli": "^1.1.0"
   }
 }
